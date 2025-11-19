@@ -21,7 +21,7 @@ class PentestToolManager(QMainWindow):
     def __init__(self, config_dir=None):
         super().__init__()
         # 设置应用程序信息
-        self.app_name = "渗透测试工具管理器"
+        self.app_name = "子非鱼工具箱"
         self.version = "1.0.0"
         
         # 初始化管理器
@@ -381,24 +381,44 @@ class PentestToolManager(QMainWindow):
             outline: none;
         }
         
-        /* 下拉框 */
+        /* 下拉组合框 */
         QComboBox {
-            background: rgba(255, 255, 255, 0.05);
+            background-color: rgba(255, 255, 255, 0.05);
             border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 8px;
-            padding: 8px 35px 8px 12px;
+            padding: 8px 12px;
             color: #ffffff;
             font-size: 13px;
+            min-height: 30px;
         }
         
         QComboBox:hover {
-            border: 1px solid rgba(103, 232, 249, 0.5);
+            border-color: rgba(103, 232, 249, 0.3);
         }
         
         QComboBox:focus {
-            border: 1px solid rgba(103, 232, 249, 0.5);
-            background: rgba(255, 255, 255, 0.08);
-            outline: none;
+            border-color: rgba(103, 232, 249, 0.5);
+            background-color: rgba(255, 255, 255, 0.08);
+        }
+        
+        QComboBox QAbstractItemView {
+            background-color: rgba(26, 26, 46, 0.95);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            color: #ffffff;
+        }
+        
+        QComboBox QAbstractItemView::item {
+            padding: 8px 12px;
+            min-height: 25px;
+        }
+        
+        QComboBox QAbstractItemView::item:hover {
+            background-color: rgba(103, 232, 249, 0.2);
+        }
+        
+        QComboBox QAbstractItemView::item:selected {
+            background-color: rgba(103, 232, 249, 0.3);
         }
         
         QComboBox::drop-down {

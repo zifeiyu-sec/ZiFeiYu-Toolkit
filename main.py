@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-渗透测试工具管理器 - 主入口
+子非鱼工具箱 - 主入口
 """
 
 import sys

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-测试渗透测试工具管理器应用程序
+测试子非鱼工具箱应用程序
 """
 
 import os
@@ -55,7 +55,7 @@ def test_image_manager():
         return False
 
 if __name__ == "__main__":
-    print("渗透测试工具管理器 - 功能测试")
+    print("子非鱼工具箱 - 功能测试")
     print("=" * 50)
     
     # 测试数据管理器

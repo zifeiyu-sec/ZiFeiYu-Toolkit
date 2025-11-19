@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-渗透测试工具管理器 - 安装配置
+子非鱼工具箱 - 安装配置
 """
 
 from setuptools import setup, find_packages
@@ -12,7 +12,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 setup(
     name="pentest-tool-manager",
     version="1.0.0",
-    description="渗透测试工具管理器 - 一个分类管理和运行渗透测试工具的图形界面应用",
+    description="子非鱼工具箱 - 一个分类管理和运行渗透测试工具的图形界面应用",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="User",

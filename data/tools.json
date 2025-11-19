@@ -183,25 +183,6 @@
       "tags": [],
       "usage_count": 0,
       "last_used": null
-    },
-    {
-      "id": 7,
-      "name": "hh",
-      "path": "S:\\\\",
-      "description": "",
-      "category_id": 1,
-      "subcategory_id": 101,
-      "background_image": "",
-      "icon": "S:\\\\",
-      "tags": [],
-      "priority": 0,
-      "is_favorite": false,
-      "arguments": "",
-      "working_directory": "S:\\",
-      "run_in_terminal": false,
-      "is_web_tool": false,
-      "usage_count": 0,
-      "last_used": null
     }
   ]
 }
